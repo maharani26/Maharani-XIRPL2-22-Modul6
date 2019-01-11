@@ -1,0 +1,142 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background-image: url();
+  background-size: cover;
+  font-family: HelveticaNeue;
+}
+.loginBox
+{
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+  width: 450px;
+  height: 500px;
+  text-align: center;
+  padding: 100px 40px;
+  box-sizing: border-box;
+  background: rgb(255,0,0);
+}
+.loginBox img
+{
+  width: 120px;
+  height: 120px;
+  margin-top: -80px;
+}
+.username{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: calc(-100px/2);
+  left: calc(50% - 50px);
+}
+h2
+{
+  margin: 0;
+  padding: 0 0 20px;
+  color: #efed40;
+  text-align: center;
+}
+.loginBox p
+{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #fff;
+}
+.loginBox input
+{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+::placeholder
+{
+  color: rgba(255,255,255,.5);
+}
+.loginBox input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  background: #ff267e;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover
+{
+  background: #efed40;
+  color: #262626;
+}
+.loginBox a
+{
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: PT Sans, sans-serif;
+}
+.header {
+  grid-column: 1;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(21,87,153, 0.7), rgba(21,153,87,0.7)), url(kod.jpg);
+  padding-top: 250px;
+  padding-left: 50px;
+  line-height: 4em;
+  color: white;
+  font-family: monospace;
+  height: 100%;
+}
+.header
+{
+  min-height : 25vh;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 0;
+  line-height: 4em;
+}
+.form {
+  grid-column: 2;
+}
+form {
+  width: 70%;
+  margin: 10px auto 0 auto;
+  padding-bottom: 20px;
+}
+span
+{
+  display: block;
+}
+span#title
+{
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+}
+span#desc {
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+}
